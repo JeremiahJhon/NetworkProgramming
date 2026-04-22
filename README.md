@@ -6,7 +6,6 @@ Network Questions:
 3. Please explain about protocol in general.
     - Is a set of rules how a data is formatted, transmitted and received between devices in a network
 
-
 Linux Questions:
 
 4. According to the Linux filesystem hierarchy standard, what directory would be an appropriate location
