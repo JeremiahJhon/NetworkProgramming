@@ -1,0 +1,18 @@
+services:
+  tcp-server:
+    build: ./server
+    container_name: tcp-server
+    ports:
+      - "9000:9000"
+    networks:
+      - tcp-net
+    restart: unless-stopped
+
+  tcp-client:
+    build: ./client
+    container_name: tcp-client
+    depends_on:
+      - tcp-server
+    networks:
+      - tcp-net
+    restart: unless-stopped

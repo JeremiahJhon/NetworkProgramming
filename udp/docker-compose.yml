@@ -1,0 +1,15 @@
+services:
+  udp-server:
+    build: ./server
+    container_name: udp-server
+    networks:
+      - udp-net
+
+  udp-client:
+    build: ./client
+    container_name: udp-client
+    networks:
+      - udp-net
+
+networks:
+  udp-net:
