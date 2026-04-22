@@ -1,3 +1,5 @@
+version: "3"
+
 services:
   tcp-server:
     build: ./server
@@ -6,7 +8,6 @@ services:
       - "9000:9000"
     networks:
       - tcp-net
-    restart: unless-stopped
 
   tcp-client:
     build: ./client
@@ -15,4 +16,6 @@ services:
       - tcp-server
     networks:
       - tcp-net
-    restart: unless-stopped
+
+networks:
+  tcp-net:
