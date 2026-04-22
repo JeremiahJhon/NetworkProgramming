@@ -1,8 +1,16 @@
-Network theory
+Network Questions:
 
-2. Please explain about OSI model	
+2. Please explain about OSI model
     - It is a standard framework or a guideline when designing how data is transmitted over a network.
     - Layers: Application -> Presentation -> Session -> Transport -> Network -> Data Link -> Physical
+3. Please explain about protocol in general.
+    - Is a set of rules how a data is formatted, transmitted and received between devices in a network
+
+Linux Questions:
+
+4. According to the Linux filesystem hierarchy standard, what directory would be an appropriate location
+for a user to install a shared application to?
+    - Ideally in /usr/local/
 5. What Linux command lines can be used to examine kernel bootup messages after boot time?
     - dmesg/journalctl -k
 6. Please give one advantage of hard links over symbolic links
