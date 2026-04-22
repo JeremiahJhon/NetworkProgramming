@@ -1,4 +1,5 @@
 Network theory
+
 2. Please explain about OSI model
     - It is a standard framework or a guideline when designing how data is transmitted over a network.
     - Layers: Application -> Presentation -> Session -> Transport -> Network -> Data Link -> Physical
